@@ -1,6 +1,10 @@
 import json
+import argparse
 
-file = 'tips.ipynb'
+parser = argparse.ArgumentParser(description='Convert .ipynb file to .py file')
+parser.add_argument('input_file', help='Path to the input .ipynb file')
+args = parser.parse_args()
+file = args.input_file
 
 code = json.load(open(file))
 filename = file.split(".")[0]

@@ -21,3 +21,4 @@ shutil.rmtree(f"data/{query}")
 
 
 
+
