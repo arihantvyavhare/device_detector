@@ -15,7 +15,7 @@ py_file = open(f"{filename}.py", "w+")
 
 for cell in code['cells']:
     if cell['cell_type'] == 'code':
-        if cell['source'] and "#| export" in cell['source'][0]:
+        if cell['source'] and (("#| export" in cell['source'][0]) or("#|export" in cell['source'][0]) ):
             py_file.write("# %%\n")       #you can comment out this line
             for line in cell['source'][1:]:
                 py_file.write(line)
