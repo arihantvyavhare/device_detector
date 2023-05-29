@@ -1,6 +1,6 @@
 ---
 title: Device Detector Img2txt
-emoji: 🏃
+emoji: 📷
 colorFrom: blue
 colorTo: yellow
 sdk: gradio
