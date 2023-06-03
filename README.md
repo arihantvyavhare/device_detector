@@ -16,4 +16,4 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 # device_detector
 laptop, desktop pc, mobile phone
 
-## with github action workflow to deploy this gradio webapp on huggingface
+## with github actions workflow to deploy this gradio webapp on huggingface
