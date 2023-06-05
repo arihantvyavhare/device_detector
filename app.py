@@ -3,7 +3,7 @@
 from fastai.vision.all import *
 import gradio as gr
 
-def is_cat(x): return x[0].isupper()
+
 
 
 
